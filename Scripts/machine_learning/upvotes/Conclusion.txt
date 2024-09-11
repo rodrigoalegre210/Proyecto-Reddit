@@ -1,0 +1,22 @@
+modelo_caracteristicas_upvotes:
+
+Este modelo tiene un rendimiento bajo, con un MSE alto y un R² cercano a cero. Aunque el error
+no es tan extremo como en los otros modelos, los resultados nos indican que las características
+basadas en el conteo de palabras y si el título tiene palabras claves no son factores relevantes
+para predecir la cantidad de upvotes. Que el R² sea cercano a cero nos indica que estas variables
+no explican suficientemente bien la variablidad de upvotes.
+
+modelo_titulo_Word2Vec_upvotes:
+
+Este modelo tiene un rendimiento más bajo que el modelo anteriormente explicado, con un MSE mayor
+y un R² negativo. Esto nos indica que el uso de embeddings de palabras para representar los
+títulos no nos está proporcionando información útil para predecir los upvotes.
+
+Ambos modelos tienen un rendimiento insuficiente para predecir la cantidad de upvotes.
+El análisis nos sugiere que ni las características basadas en el conteo de palabras ni la
+representación de los títulos con Word2Vec son lo suficientemente representativas de los factores
+que influyen en los upvotes.
+
+Teniendo esto en cuenta, podemos deducir que es probable que la popularidad de una publicación
+en términos de upvotes dependa de otros factores como la relevancia del contenido, la interacción
+del usuario o el contexto en el que se publica, más que el análisis superficial del título.

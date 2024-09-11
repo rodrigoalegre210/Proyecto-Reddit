@@ -1,0 +1,23 @@
+modelo_caracteristicas:
+
+Este modelo tiene un mal rendimiento (MSE alto y R² negativo), pero este error es mucho más razonable que
+el del segundo modelo. La información sobre el conteo de palabras y si el titulo tiene palabras claves
+parecen no ser suficientes para explicar la variación en el número de comentarios.
+
+modelo_titulo:
+
+Los títulos no le proporcionan al modelo información útil para predecir la cantidad de comentarios, lo que
+resulta en errores de predicción extremadamente grandes y valores negativos para el R². Esto nos da a 
+entender que los títulos no tienen una relación clara con el número de comentarios o que la representación
+actual (vectorización) no captura esa relación de forma correcta.
+
+modelo_titulo_Word2Vec:
+
+El modelo basado en Word2Vec también muestra un rendimiento subóptimo, con un MSE relativamente alto y un R²
+negativo. Aunque la capacidad de Word2Vec para capturar relaciones semánticas entre las palabras en los
+títulos es más compleja, los resultados sugieren que la representación vectorial de los títulos no está
+contribuyendo de manera efectiva a la predicción del número de comentarios.
+
+El haber realizado estos 3 modelos me indican que el título no influye en la cantidad de comentarios.
+Reddit es una red en donde se realizan varios debates y discusiones en los comentarios, los cuales pueden
+tornarse a una amplia cantidad de comentarios en base a un solo comentario.
