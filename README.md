@@ -10,7 +10,7 @@ El proyecto abarca múltiples etapas del flujo de trabajo de ciencia de datos co
 * **Procesameinto de datos**: Los datos extraídos pasan por un proceso de limpieza y estandarización que incluye la eliminación de publicaciones con títulos faltantes, la normalización de texto y lo necesario para poder entrenar los modelos de ML en una forma correcta.
 * **Modelos predictivos de ML**: Se implementaron un total de 5 modelos para predecir el número de comentarios y upvotes en función de los títulos de las publicaciones.
 
-  ## Modelos predictivos.
+## Modelos predictivos.
 
 Como se mencionó anteriormente, se realizaron un total de 5 modelos predictivos en este proyecto (Tres modelos para predecir la cantidad de comentarios y dos modelos para predecir la cantidad de upvotes). Los modelos tuvieron dos enfoques: Basados en características y Basados en Word2Vec.
 
