@@ -23,3 +23,5 @@ Como se mencionó anteriormente, se realizaron un total de 5 modelos predictivos
 Como conclusión final con estos modelos, se determinó que los títulos de las publicaciones y las características básicas no son buenos predictores del número de upvotes. Esto puede ser a la naturaleza del contenido de Reddit, en donde el contexto y las interacciones entre usuarios son más impactantes que los mísmos títulos.
 
 <img src="Diagrama.png" alt="Diagrama">
+
+Muchas gracias por tomarte el tiempo de explorar mi trabajo.
